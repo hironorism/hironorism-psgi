@@ -3,7 +3,6 @@ use warnings;
 use URI;
 use JSON;
 use Encode;
-use URI::Escape qw/uri_unescape/;
 use Plack::Request;
 use AnyEvent::HTTP;
 use WebService::Simple;
